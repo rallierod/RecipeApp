@@ -15,6 +15,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import {MatRadioModule} from '@angular/material/radio';
+import { PracticeComponent } from './practice/practice.component';
+
 
 
 
@@ -24,7 +28,8 @@ import {MatInputModule} from '@angular/material/input';
     AppComponent,
     HomeComponent,
     AddNewRecipeComponent,
-    ListComponent
+    ListComponent,
+    PracticeComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +41,8 @@ import {MatInputModule} from '@angular/material/input';
     MatListModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTableModule,
+    MatRadioModule
 
   ],
   providers: [],
