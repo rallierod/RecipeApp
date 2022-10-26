@@ -1,4 +1,4 @@
 package com.recipeApp.RecipeApp.Data;
 
-public interface recipeTime {
+public interface recipeTimeRepository {
 }

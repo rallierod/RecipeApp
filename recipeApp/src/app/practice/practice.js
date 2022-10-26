@@ -18,7 +18,7 @@ const puppeteer = require('puppeteer');
     const ingredients = document.getElementsByClassName("wprm-recipe-ingredients-container")[0].innerText;
     const instructions = document.getElementsByClassName("wprm-recipe-instructions-container")[0].innerText;
     const nutrition = document.getElementsByClassName("wprm-nutrition-label-container")[0].innerText;
-      
+
         const recipeJson = {
           name: name,
           summary: summary,
@@ -31,8 +31,8 @@ const puppeteer = require('puppeteer');
           nutrition: nutrition,
         };
         console.log(recipeJson);
-      
-    
+
+
         return  recipeJson
 
         });

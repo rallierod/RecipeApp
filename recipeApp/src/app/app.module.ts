@@ -18,6 +18,9 @@ import {MatInputModule} from '@angular/material/input';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import {MatRadioModule} from '@angular/material/radio';
 import { PracticeComponent } from './practice/practice.component';
+import { RecipeComponent } from './recipe/recipe.component';
+import { InstructionsComponent } from './instructions/instructions.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
 
 
 
@@ -29,7 +32,10 @@ import { PracticeComponent } from './practice/practice.component';
     HomeComponent,
     AddNewRecipeComponent,
     ListComponent,
-    PracticeComponent
+    PracticeComponent,
+    RecipeComponent,
+    InstructionsComponent,
+    IngredientsComponent
   ],
   imports: [
     BrowserModule,
